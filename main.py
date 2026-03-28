@@ -9,7 +9,9 @@ import asyncio
 import aiohttp
 import os
 from tqdm import tqdm
+import webbrowser
 
+webbrowser.open("https://pixelblast.vercel.app")
 DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
