@@ -19,8 +19,7 @@ This tool fetches episode lists from AnimeHeaven, extracts playable video source
 
 ## Requirements
 
-- Python 3.8 or higher
-
+- Python
 ---
 
 ## Installation
@@ -38,7 +37,7 @@ pip install requests beautifulsoup4 aiohttp tqdm
 Run the script:
 
 ```bash
-python your_script_name.py
+python main.py
 ```
 
 You will be prompted for:
@@ -74,12 +73,6 @@ Downloaded files will be saved in the `downloads` folder.
 - A working VPN may be required depending on your region and the website's restrictions
 - Download speed depends on your internet connection and server response
 - Avoid setting very high batch sizes to prevent connection issues
-
----
-
-## Disclaimer
-
-This project is for educational purposes only. Make sure you have the right to download and use the content you access.
 
 ---
 
